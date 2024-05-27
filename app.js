@@ -51,7 +51,7 @@ function addTask(task, prepend = true) {
       const inputElement = listItem.querySelector('input[type="text"]');
       taskText.textContent = inputElement.value;
       listItem.removeChild(inputElement);
-      listItem.appendChild(taskText);
+      listItem.insertBefore(taskText, checkBox); // Move the taskText before the checkbox
       listItem.classList.remove('editing');
       editButton.textContent = 'Edit';
       taskText.disabled = true;
@@ -106,7 +106,7 @@ function saveTasksToLocalStorage() {
 
 document.addEventListener('DOMContentLoaded', function() {
   const savedTasks = JSON.parse(localStorage.getItem('tasks')) || [];
-  savedTasks.forEach(task => {
+ savedTasks.forEach(task => {
     addTask(task.text, false);
     const listItem = todoList.firstChild;
     if (task.completed) {

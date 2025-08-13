@@ -1,5 +1,17 @@
-![Screenshot 2024-05-27 195639](https://github.com/theibrarahmad/to-do-list-app/assets/132042963/78e33b86-6402-44da-9a88-de799eab05d2)
-![Screenshot 2024-05-27 195606](https://github.com/theibrarahmad/to-do-list-app/assets/132042963/1abad8eb-9dd1-47aa-9989-c66cd07e175d)
+#  To-Do List App
+This is a simple and intuitive **To-Do List App** built with **HTML**, **CSS**, and **JavaScript**.  
+It lets you add new tasks, delete existing ones, and mark tasks as completed — all in a clean, user-friendly interface.
+
+**Live Demo:** 
+
+Try the app in your browser:
+
+[(https://theibrarahmad.github.io/to-do-list-app/)](https://theibrarahmad.github.io/to-do-list-app/)
 
 
+##  Features
 
+- Add new tasks dynamically  
+- Mark tasks as completed or remove them  
+- Responsive design for mobile and desktop  
+- No dependencies or backend — pure frontend
